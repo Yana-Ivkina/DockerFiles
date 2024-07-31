@@ -1,0 +1,9 @@
+FROM container_base
+
+COPY tests /app/tests
+
+WORKDIR /app
+
+CMD ["/bin/bash"] 
+
+
